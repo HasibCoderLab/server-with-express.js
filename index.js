@@ -18,7 +18,10 @@
  const port = 7000;
 
  app.get("/" , (req, res) =>{
-    res.send("This is a home page");
+    // res.send("<h1>Hasib</h1>");
+    // res.send("Tihs is a contact page");
+    res.json({name:"Hasib" , age:"18"})
+
  });
  app.get("/about" , (req, res) =>{
     res.send("Tihs is a about page");
