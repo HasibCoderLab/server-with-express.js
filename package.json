@@ -1,13 +1,13 @@
 {
-  "name": "a-221-server-with-express",
+  "name": "server-with-express",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "",
+  "author": "Hasib Hasan",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js"
   },
   "dependencies": {
     "express": "^5.2.1",
